@@ -3,7 +3,7 @@
 // @description Adds helpfull options for searching in ClearPass Guest
 // @author      Joseph Selby
 // @match       *://register.cmich.edu/guest/*
-// @version     1.0.1
+// @version     1.0.2
 // @updateURL   https://github.com/vrelk/userscripts/raw/master/clearpass-guest-search.user.js
 // 
 // ==/UserScript==
@@ -31,6 +31,7 @@ document.getElementById("OIT-SearchGID").addEventListener(
 
 //--- Automatically trim and format a mac address
 function OitFormatMac(zEvent) {
+    var macField = document.getElementById("mac_list_search");
     var macAddr = macField.value.trim();
     macAddr = macAddr.toUpperCase();
     macAddr = macAddr.replace(/\W/ig, '');
