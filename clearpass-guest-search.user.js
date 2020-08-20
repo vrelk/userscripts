@@ -3,8 +3,8 @@
 // @description Adds helpfull options for searching in ClearPass Guest
 // @author      Joseph Selby
 // @match       *://register.cmich.edu/guest/*
-// @version     1.0.0
-// @updateURL https://gist.github.com/vrelk/31d8256b1f7713d13fa3c316818fd7e1/raw/a236709f1e7e846b281af071db7430620e0837ee/clearpass-guest-search.user.js
+// @version     1.0.1
+// @updateURL   https://github.com/vrelk/userscripts/raw/master/clearpass-guest-search.user.js
 // 
 // ==/UserScript==
 let clearButton = document.getElementById('mac_list_search_clear');
